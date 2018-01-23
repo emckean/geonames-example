@@ -1,0 +1,96 @@
+[
+  {
+    "FEATURE_ID": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "FEATURE_NAME": {
+      "type": "string",
+      "required": true
+    },
+    "FEATURE_CLASS": {
+      "type": "string",
+      "required": true
+    },
+    "STATE_ALPHA": {
+      "type": "string",
+      "required": true
+    },
+    "STATE_NUMERIC": {
+      "type": "string",
+      "required": true
+    },
+    "COUNTY_NAME": {
+      "type": "string",
+      "required": true
+    },
+    "COUNTY_NUMERIC": {
+      "type": "string",
+      "required": true
+    },
+    "PRIMARY_LAT_DMS": {
+      "type": "string",
+      "required": true
+    },
+    "PRIM_LONG_DMS": {
+      "type": "string",
+      "required": true
+    },
+    "PRIM_LAT_DEC": {
+      "type": "number",
+      "datatype": "decimal",
+      "precision": 10,
+      "scale": 7
+    },
+    "PRIM_LONG_DEC": {
+      "type": "number",
+      "datatype": "decimal",
+      "precision": 10,
+      "scale": 7,
+      "required": true
+    },
+    "SOURCE_LAT_DMS": {
+      "type": "string",
+      "required": true
+    },
+    "SOURCE_LONG_DMS": {
+      "type": "string",
+      "required": true
+    },
+    "SOURCE_LAT_DEC": {
+      "type": "number",
+      "datatype": "decimal",
+      "precision": 10,
+      "scale": 7,
+      "required": true
+    },
+    "SOURCE_LONG_DEC": {
+      "type": "number",
+      "datatype": "decimal",
+      "precision": 10,
+      "scale": 7,
+      "required": true
+    },
+    "ELEV_IN_M": {
+      "type": "number",
+      "required": true
+    },
+    "ELEV_IN_FT": {
+      "type": "number",
+      "required": true
+    },
+    "MAP_NAME": {
+      "type": "string",
+      "required": true
+    },
+    "DATE_CREATED": {
+      "type": "date",
+      "required": true
+    },
+    "DATE_EDITED": {
+      "type": "date",
+      "required": true
+    }
+  }
+]
