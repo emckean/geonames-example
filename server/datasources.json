@@ -1,0 +1,12 @@
+{
+  "mysql": {
+    "host": "",
+    "port": 0,
+    "url": "mysql://root:pwd@localhost:8083/mysql",
+    "database": "",
+    "password": "",
+    "name": "mysql",
+    "user": "",
+    "connector": "mysql"
+  }
+}
